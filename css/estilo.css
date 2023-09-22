@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191844;
+}
+
+aside {
+    width: 40%;
+    margin: 15px;
+    float: left;
+    font-style: italic;
+    background: #81c2c5;
+}
+
+aside p {
+    color: #6d2e2f;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+    color: #c7c6e9;
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    background: #3b235d;
+    box-shadow: 1px 1px 50px #9df3fe;
+    position: fixed;
+}
+
+h4 {
+    color: #6b69b9;
+}
+
+#menu {
+    width: 600px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+
+#menu ul a {
+    color: #c5d4e6;
+    text-decoration: none;
+    font: 16px;
+    padding: 13px 20px 19px 20px;
+}
+
+#main h1 {
+    padding-top: 7%;
+    color: #6b69b9;
+}
+
+figure h4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #6b69b9;
+}
+
+figcaption {
+    color: #9dd6d3;
+}
+
+.bordes {
+    background: #f5e6e7;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#footer {
+    background: #3b235d;
+    color: #f2f2f2;
+    grid-column: span 3;
+}
+
+.redes img {
+    width: 5%;
+    margin: 15px;
+    float: right;
+    margin-top: -5%;
+}
+
+/* ---- hover ----*/
+
+#menu ul a:hover {
+    color: #30435f;
+    background: #66a8a7;
+}
+
